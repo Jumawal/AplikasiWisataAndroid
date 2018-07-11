@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ticketbox.utsb.jumawal.com.wisata.PantaiFink">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/jerman">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Air Terjun Jeruk Manis"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/jdl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:text="WISATA AIR TERJUN JERUK MANIS"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="250dp"
+                android:text="\nLokasi : Terletak bersebelahan dengan Desa Tete Batu,tepatnya di Desa Kembang Kuning,Kecamatan Sikur,Kabupaten Lombok Timur,Propinsi Nusa Tenggara Barat. \n
+                \nAkses : Berjarak sekitar 50 km dari kota mataram dengan waktu tempuh berkendara sekitar 2 jam dengan kendaraan roda dua atau empat. Jika dari Kawasan Wisata Tetebatu sekitar 6 km jauhnya. Rute untuk menuju kesana adalah Mataram - Cakranegara - Narmada - Sedau - Mantang - Kopang - Terara - Sikur - Masbagik - Desa Kembang Kuning. Jika menggunakan angkutan umum dari kota Mataram naik angkot berwarna kuning jurusan Mataram - Bertais dengan ongkos Rp 3000/orang. Dari Bertais berganti angkot jurusan Bertais - Masbagik dengan ongkos Rp 10000/orang.Selanjutnya perjalanan diteruskan dengan menggunkan ojek menuju Desa Kembang Kuining. Sesampainya di Pintu Gerbang Posko Taman Nasional Gunung Rinjani yang sekaligus menjadi pintu masuk ke lokasi air terjun berada, perjalanan diteruskan dengan berjalan kaki menyusuri jalan setapak sekitar 1,5 km menuju lokasi air terjun berada dengan waktu tempuh sekitar 30 menit.Kondisi jalan setapak ini sudah cukup baik yang terbuat dari batu-batu pipih yang disusun rapi.Dan sekitar 180 anak tangga yang tidak terlalu curam.\n
+                \nTiket dan parkir : Tiket masuk sebesar Rp 2500 per orang.\n
+                \nDi sekitar lokasi menuju air terjun ( di desa Tete Batu) banyak terdapat sarana akomodasi bagi pengunjung baik lokal maupun mancanegara diantaranya seperti Home Stay , Cottages, Restoran dan lain lain Selain itu sepanjang jalan setapak menuju air terjun ini akan ditemui tiga buah gazebo (berugak) yang dapat digunakan untuk beristirahat sementara apabila merasa lelah."/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1000dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berikan Penilaian Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatRatingBar
+                    android:id="@+id/penilaian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="0.5" />
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan E-mail Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextEmail" />
+
+                <TextView
+                    android:id="@+id/komentar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan Komentar Anda: "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextcoment" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kirim" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <WebView
+                        android:id="@+id/rating"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="11dp"
+                        tools:ignore="WebViewLayout">
+
+                    </WebView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

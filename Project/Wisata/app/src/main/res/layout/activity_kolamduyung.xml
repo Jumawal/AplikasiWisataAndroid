@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ticketbox.utsb.jumawal.com.wisata.PantaiFink">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/duyung">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Kolam Renang Putri Duyung"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/jdl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:text="WISATA KOLAM RENANG PUTRI DUYUNG"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="250dp"
+                android:text="\nLokasi : terletak di Desa Pringgasela Kecamatan Pringgasela Kabupaten Lombok Timur, sekitar 15 kilometer dari ibukota kabupaten Lombok Timur, Selong.\n
+                \nAkses : perjalanan yang ditempuh dari Mataram adalah di Baretais (Terminal Mandalika) mengikuti jalan lurus tujuan Labuhan Lombok.Selanjutnya dari Kopang – Mantang – Masbagik – Rempung. Pada perempatan lampu merah Desa Rempung, belok kiri atau menuju utara dan lurus sampai perempatan Desa Pringgasela yang ada tugu(Tugu Mopra namanya). Perjalanan diteruskan sekitar 1 kilometer lagi ke sebelah utara sampailah di obyek wisata putri duyung.\n
+                \nTiket dan parkir : Untuk dewasa dipatok harga tiket Rp 3.000 sampai Rp 5.000,- sedangkan untuk anak-anak cukup dengan Rp 2.000 di lokasi ini juga tersedia tempat parkir kendaraan yang dikelola dengan baik,untuk biaya parkir mobil sebesar Rp 2.000,- sedangkan sepeda motor Rp 1.000.-"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="620dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berikan Penilaian Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatRatingBar
+                    android:id="@+id/penilaian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="0.5" />
+
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan E-mail Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextEmail" />
+
+                <TextView
+                    android:id="@+id/komentar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan Komentar Anda: "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextcoment" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kirim" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <WebView
+                        android:id="@+id/rating"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="11dp"
+                        tools:ignore="WebViewLayout">
+
+                    </WebView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ticketbox.utsb.jumawal.com.wisata.PantaiFink">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/gunungrinjani">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Gunung Rinjani"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/jdl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:text="TENTANG WISATA GUNUNG RINJANI"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="250dp"
+                android:text="\nLokasi dan  : terletak di desa sembalun lombok timur,nusa tenggara barat.\n
+                \nAksesbilitas : Mataram - Sembalun ( ± 4 - 5 jam kendaraan umum) Sembalun Lawang - Puncak Gunung Rinjani ( ± 7 Jam Jalan Kaki) Sembalun Lawang - Danau Segara Anak ( ± 2 - 3 Jam Jalan Kaki).\n
+                \nTiket dan parkir : Harga tiket dikenakan sebesar Rp. 2.500,-/perorang sekali naik untuk wisatawan nusantara, sedang untuk wisatan asing sebesar Rp. 20.000,- per orang sekali naik"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berikan Penilaian Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatRatingBar
+                    android:id="@+id/penilaian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="0.5" />
+
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan E-mail Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextEmail" />
+
+                <TextView
+                    android:id="@+id/komentar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan Komentar Anda: "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextcoment" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kirim" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <WebView
+                        android:id="@+id/rating"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="11dp"
+                        tools:ignore="WebViewLayout">
+
+                    </WebView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

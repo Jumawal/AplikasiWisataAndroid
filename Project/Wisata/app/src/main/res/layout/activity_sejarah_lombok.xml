@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ticketbox.utsb.jumawal.com.wisata.PantaiFink">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/pulaulombok"/>
+            <TextView
+                android:id="@+id/jdl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:text="SEJARAH PULAU LOMBOK"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                / >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="250dp"
+                android:text="\nNama Lombok dalam berbagai cerita lisan maupun tertulis dalam takepan lontar adalah salah satu nama dari Pulau Lombok.
+                \nNama lain yang sering disebut adalah pulau (Meneng) yang berarti (sepi). Ada yang menyebut (Gumi Sasak), ada yang menyebut “Gumi (bumi) Selaparang”, sesuai dengan nama salah satu kerajaan yang terkenal di Lombok pada zaman dulu yaitu kerajaan Selaparang.
+                \n\nLombok sejak zaman kerajaan Majapahit sudah terkenal Hal ini terbukti dengan disebutnya dalam buku Negarakertagama yang ditulis oleh Empu Prapanca. Negarakertagama ditemukan juga di Lombok Legenda masyarakat Sasak menceritakan bahwa pada zaman dahulu kala,kerajaan Mataram Lama di Jawa Tengah dipimpin oleh seorang raja wanita bernama Pramudawardhani yang kawin dengan Rakai Pikatan. Konon sang Permaisuri adalah seorang ahli pemerintahan,sedangkan sang suami ahli peperangan.\n
+                \nKekuasaannya ke barat sampai ke Pulau Sumatra, ke timur sampai ke Pulau Flores. Ketika itulah banyak rakyat Mataram pergi berlayar ke arah timur melalui Laut Jawa menggunakan perahu bercadik Tujuan mereka berlayar tidak diketahui secara pasti. Apakah untuk memperluas kekuasaan atau menghindari kerja berat,karena pada saat itu Candi Borobudur,Candi Prambanan,dan Candi Kalasan sedang dibangun oleh sang raja Demikianlah mereka berlayar lurus ke timur dan mendarat di sebuah pelabuhan. Pelabuhan itu diberi nama Lomboq (lurus),untuk mengenang perjalanan panjang Mereka lurus ke timur tersebut.\n
+                \nSelanjutnya, Lomboq kini tidak hanya menjadi nama pelabuhan tempat perahu itu mendarat, tetapi juga menjadi nama pulau Lomboq yang kemudian berubah menjadi Lombok. Mereka berlayar menggunakan perahu bercadik yang disebut “sak-sak”, dan jadilah mereka dinamakan orang Sak-Sak Yang berarti orang yang datang menggunakan perahu. Kemudian, mereka membaur dengan penduduk asli.\n
+                \nPada waktu itu,di Pulau Lombok telah ada kerajaan yang disebut kerajaan Kedarao (mungkin sekarang Sembalun dan Sambelia) Mereka kemudian mendirikan kerajaan Lombok yang berpusat di Labuhan Lombok sekarang. Kerajaan Lombok menjadi besar, berkembang dalam lima abad, hingga dikenal di seluruh Nusantara, sebagai pelabuhan yang dikunjungi oleh para pedagang dari Tuban, Gresik, Makasar, Banjarmasin, Ternate, Tidore, bahkan Malaka.\n
+                \nJika datang ke Lombok,orang Malaka membeli beras,tarum,dan kayu sepang Kerajaan Lombok kemudian dikalahkan oleh kerajaan Majapahit Raja dan permaisurinya lari ke gunung dan mendirikan kerajaan baru Yang diberi nama Watuparang yang kemudian terkenal dengan nama kerajaan Selaparang. Nama Lomboq berubah menjadi Lombok,dan nama Sak-Sak berubah menjadi Sasak tidak diketahui secara pasti. Yang jelas sekarang pulaunya terkenal dengan nama Pulau Lombok dan suku bangsanya terkenal dengan nama suku Sasak. Nama Selaparang Sudah diabadikan menjadi nama sebuah jalan protokol dan nama lapangan terbang di Mataram, ibu kota provinsi Nusa Tenggara Barat."/>
+        </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

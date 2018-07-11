@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="#cfd6d0"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tek1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="15dp" />
+
+        <ImageView android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gunung">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tek2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="\n WISATA LOMBOK \n versi 1.0 \n Januari 2018 \n"
+            android:gravity="center_horizontal"
+            android:textColor="#990000"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tek3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="JUMAWAL"
+            android:textColor="#2326db"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tek4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="151111018@mhs.stiki.ac.id \n"
+            android:textColor="#990000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tek6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="supported by:"
+            android:textColor="#2326db"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tek5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" STIKI Malang "
+            android:textColor="#990000"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btok"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#756f6f"
+            android:layout_gravity="center"
+            android:text="OK"/>
+
+    </LinearLayout>
+</LinearLayout>

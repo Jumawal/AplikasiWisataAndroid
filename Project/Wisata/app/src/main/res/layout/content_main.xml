@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ticketbox.utsb.jumawal.com.wisata.PantaiFink">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_height="300dp"
+                android:background="@drawable/pulaulombok"/>
+
+            <TextView
+                android:id="@+id/jdl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="380dp"
+                android:text="APLIKASI WISATA LOMBOK"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="410dp"
+                android:text="\nAplikas ini merupakan aplikasi yang memudahkan wisatawan untuk melihat informasi-informasi tentang berbagaimacam wisata yang khususnya ada di Pulau Lombok\n
+                \n"/>
+
+
+
+        </RelativeLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

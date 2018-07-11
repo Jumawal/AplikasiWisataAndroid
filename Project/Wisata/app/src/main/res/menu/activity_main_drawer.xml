@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_wisata"
+            android:icon="@drawable/aplikasi"
+            android:title="Wisata" />
+        <item
+            android:id="@+id/nav_sejarah"
+            android:icon="@drawable/sejarahku"
+            android:title="Sejarah Lombok" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About" />
+
+    </group>
+</menu>

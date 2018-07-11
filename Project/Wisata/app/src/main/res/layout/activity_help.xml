@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ticketbox.utsb.jumawal.com.wisata.Help">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="99dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tombolwisata" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="Tombol Wisata"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Menampilakan Menu Kriteria \nWisata   "
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/tombolsejarah"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="Tombol Sejarah"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:text="Menampilakan Sejarah Lombok"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/tombolabout"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="Tombol About"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:text="Menampilkan Informasi Tentang \nAplikasi"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/tombolhelp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="Tombol Help"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:text="Menampilakan bantuan penggunaan \nAplikasi"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/tombolpantai"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="TombolPantai"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:text="Menampilakan daftar wisata pantai"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/tombolgunung"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="Tombol Gunung"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:text="Menampilakan daftar \n Wisata gunung"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/tombolairterjun"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="Tombol Airterjun"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:text="Menampilakan Daftar wisata \n air terjun "/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/tombolkolam"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="Tombol Kolam"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:text="Menampilakan daftar Wisata \n kolam renang"/>
+
+            </TableRow>
+
+        </LinearLayout>
+
+</ScrollView>

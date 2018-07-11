@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ticketbox.utsb.jumawal.com.wisata.PantaiFink">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/seng">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Pantai Senggigi"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/jdl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:text="TENTANG WISATA PANTAI SENGGIGI"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:text="\nLokasi : Objek wisata ini terletak di kabupaten lombok barat,dengan jarak kurang lebih 52 km dari bandara internasional lombok.n\
+                \nPantai Senggigi adalah salah satu pantai di Lombok yang sudah tersohor. Anda akan disuguhi pemandangan gradasi warna hitam dan putih pasir yang indah. Selain gradasi warna pasir, pemandangan sunset di sini tak kalah indah dengan sunset Kuta.
+                \nAkses : tetapi jika wisatawan berangkat dari pusat kota mataram,jarak antara kedua tempat ini adalah 15 km. wisatawan juga dapat menggunakan transportasi seperti taksi,ada juga angkutan umum dari kota mataram menuju ampenan, setelah sampai ampenan,wisatawan dapat melanjutkan perjalan menggunakan angkutan umum jurusan ampenan - senggigi tarifnya 5000 saja.
+                \nDi garis pantai yang panjang tersebut, Pantai Senggigi memiliki dua lokasi budaya yang bisa Anda kunjungi. Lokasi tersebut adalah Batu Bolong dan Batu Layar. Batu Bolong adalah sebuah pura yang dibangun di atas karang. Sedangkan Batu Layar merupakan sebuah lokasi di mana terdapat makam seorang ulama. Air laut di Pantai Senggigi sangat jernih, sehingga Anda bisa melihat biota laut yang sedang bebas berenang dengan mata terbuka.\n
+                \nnTiket dan Parkir : untuk memasuki wisata pantai senggigi setiap wisatawan harus membayar 10.000,parkir 2000"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="720dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berikan Penilaian Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatRatingBar
+                    android:id="@+id/penilaian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="0.5" />
+
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan E-mail Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextEmail" />
+
+                <TextView
+                    android:id="@+id/komentar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan Komentar Anda: "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextcoment" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kirim" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <WebView
+                        android:id="@+id/rating"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="11dp"
+                        tools:ignore="WebViewLayout">
+
+                    </WebView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

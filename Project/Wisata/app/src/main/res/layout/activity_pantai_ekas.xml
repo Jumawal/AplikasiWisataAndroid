@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ticketbox.utsb.jumawal.com.wisata.PantaiFink">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ekas">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Pantai Ekas"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/jdl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:text="TENTANG WISATA PANTAI EKAS"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="250dp"
+                android:text="\nLokasi : Pantai Ekas terletak di Desa Pemongkong, Kecamatan Jerowaru, Kabupaten Lombok Timur. Pantai ini dapat dicapai dari Kota Mataram dalam perjalanan sejauh 75 km menuju tenggara. Jika anda ingin berkunjung ke pantai Ekas, Anda disarankan untuk menempuh perjalanan menggunakan kendaraan pribadi(terutama sepeda motor) karena transpormasi umum yang menuju pantai ini masih sangat jarang.\n
+                \nAkses :Dari Kota Mataram, Anda bisa menempuh jalur Mataram, lalu ke Cakranegra, dilanjutkan ke Kediri, kemudian ke Praya, lalu ke Mujur, Ganti, Keruak, Jeruwaru, dan terakhir tiba di Ekas.\n
+                \nSalah satu Pemandangan menarik yang ad di Pantai Ekas adalah aktivitas para nelayannya. Wisatwan dapat menemui sekitar 50 pondok apung dengan sampan yang bersandar disampingnya.
+                \nPondok apung ini dibuat oleh para nelayan dengan tujuan untuk menangkarkan ikan kerapu dan udang. Selain itu, Anda pun bisa mengikuti aktivitas para nelayan ketika merka berada di darat, seperti bagaimana mereka membuat perahu dan sampan dengan metode tradisional, serta proses pemotongan ikan di berugak (gazebo atau semacam gubuk).
+                 \nDisana juga terdapat fasilitas penginapan.\n
+                \nTiket dan Parkir : Tidak ada tiket masuk."/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="730dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berikan Penilaian Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatRatingBar
+                    android:id="@+id/penilaian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="0.5" />
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan E-mail Anda:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextEmail" />
+
+                <TextView
+                    android:id="@+id/komentar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Masukan Komentar Anda: "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextcoment" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kirim" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <WebView
+                        android:id="@+id/rating"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="11dp"
+                        tools:ignore="WebViewLayout">
+
+                    </WebView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
